@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1861</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>1395</ColumnWidth1>
+        <ColumnWidth2>372</ColumnWidth2>
+        <ColumnWidth3>93</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>369</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
+      <Find-in-Files>
+        
+        
+        
+      <ColumnWidth0>664</ColumnWidth0><ColumnWidth1>94</ColumnWidth1><ColumnWidth2>1138</ColumnWidth2></Find-in-Files>
+    <Select-Ambiguous-Definitions><ColumnWidth0>664</ColumnWidth0><ColumnWidth1>94</ColumnWidth1><ColumnWidth2>1138</ColumnWidth2></Select-Ambiguous-Definitions><CallStack><col-names><item>Frame</item><item>_I0</item></col-names><col-widths><item>400</item><item>20</item></col-widths></CallStack><WATCH_1><expressions><item>g_strtMFRYMMESelectProfile</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>229</item><item>150</item><item>100</item><item>184</item></col-widths></WATCH_1><Memory><FindDirection>1</FindDirection><FindAsHex>0</FindAsHex></Memory><Breakpoints><col-names><item>Breakpoint</item><item>_I0</item></col-names><col-widths><item>500</item><item>35</item></col-widths></Breakpoints></Static>
+    <Windows>
+      
+      
+      
+    <Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-31704-22348</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-31181-22358</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-5795-22629</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-1591-21130</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab><Tab><Identity>TabID-11559-28149</Identity><TabName>Memory</TabName><Factory>Memory</Factory><Session><ZoneNumber>0</ZoneNumber><SelectionAnchor>536923680</SelectionAnchor><SelectionEnd>536923780</SelectionEnd><UnitsPerGroup>1</UnitsPerGroup><EndianMode>0</EndianMode><DataCovEnabled>0</DataCovEnabled><DataCovShown>0</DataCovShown><AutoRefresh>0</AutoRefresh><HScroll>0</HScroll><VScroll>33557724</VScroll></Session></Tab><Tab><Identity>TabID-24372-16988</Identity><TabName>Breakpoints</TabName><Factory>Breakpoints</Factory></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3><Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-9684-22351</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>NWS_FW</ExpandedNode><ExpandedNode>NWS_FW/1_Application</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/2_GUI_Database</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/2_GUI_Database/1_Main_Flow</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/2_GUI_Database/1_Main_Flow/1_Text_DB</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/3_UI_Processes</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/3_UI_Processes/Proc_Manager</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/3_UI_Processes/Processes</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/3_UI_Processes/Processes/04_YMME_Selection</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/3_UI_Processes/Processes/04_YMME_Selection/Lib</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/3_UI_Processes/Processes/08_DLC_Locator</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/3_UI_Processes/Processes/12_OBD2_Process</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/3_UI_Processes/Processes/12_OBD2_Process/App_Middle</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/3_UI_Processes/Processes/Other_Processes</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/4_Key_Processes</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/5_Vehicle_Data_Process</ExpandedNode><ExpandedNode>NWS_FW/1_Application/3_User_Interface/6_UI_Utilites</ExpandedNode><ExpandedNode>NWS_FW/2_Middle</ExpandedNode><ExpandedNode>NWS_FW/2_Middle/0_Middle_Utilities</ExpandedNode><ExpandedNode>NWS_FW/2_Middle/2_Vehicle_Interface</ExpandedNode><ExpandedNode>NWS_FW/2_Middle/2_Vehicle_Interface/1_OBD_API</ExpandedNode><ExpandedNode>NWS_FW/2_Middle/5_Communication</ExpandedNode><ExpandedNode>NWS_FW/2_Middle/5_Communication/1_Usb</ExpandedNode><ExpandedNode>NWS_FW/2_Middle/5_Communication/1_Usb/1_App_API</ExpandedNode><ExpandedNode>NWS_FW/2_Middle/6_Sound</ExpandedNode><ExpandedNode>NWS_FW/2_Middle/8_System</ExpandedNode><ExpandedNode>NWS_FW/3_Hardware_Core</ExpandedNode><ExpandedNode>NWS_FW/3_Hardware_Core/1_MCU_Core</ExpandedNode><ExpandedNode>NWS_FW/3_Hardware_Core/1_MCU_Core/STM32F427x</ExpandedNode><ExpandedNode>NWS_FW/3_Hardware_Core/1_MCU_Core/STM32F427x/StartUp</ExpandedNode><ExpandedNode>NWS_FW/Output</ExpandedNode></NodeDict></Session>
+          </Tab>
+        <Tab><Identity>TabID-7270-2475</Identity><TabName>Call Stack</TabName><Factory>CallStack</Factory></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20432-22354</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-3903-2743</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd5></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\1_Application\OBDToolMain.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>20</YPos2><SelStart2>1029</SelStart2><SelEnd2>1029</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\1_Application\3_User_Interface\5_Vehicle_Data_Process\Vehicle_Data_Manager.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\1_Application\3_User_Interface\3_UI_Processes\Proc_Mangager\OBDToolManager.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>2085</YPos2><SelStart2>78050</SelStart2><SelEnd2>78050</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\1_Application\3_User_Interface\6_UI_Uilities\Common_LCD_Screen.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>87</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\0_Middle_Utilities\System_Process_UI\SysProcess.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>75</YPos2><SelStart2>453</SelStart2><SelEnd2>453</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\0_Middle_Utilities\System_Process_UI\SysProcess.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>65</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\0_Middle_Utilities\ByteStringUtilities.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>570</SelStart2><SelEnd2>570</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\0_Middle_Utilities\MLStringUtilities.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>25</YPos2><SelStart2>1848</SelStart2><SelEnd2>1848</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\0_Middle_Utilities\ByteStringUtilities.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\0_Middle_Utilities\SystemModeFunctionUtilities.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>98</YPos2><SelStart2>4194</SelStart2><SelEnd2>4194</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\3_Hardware_Core\1_MCU_Core\STM32F427x\startup\startup_stm32f4xx.s</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>165</YPos2><SelStart2>12601</SelStart2><SelEnd2>12601</SelEnd2></Tab><ActiveTab>10</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <PoLap Dangions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00f08188><key>iaridepm.enu1</key></Toolbar-00f08188></Sizes></Row0><Row1><Sizes><Toolbar-16562250><key>debuggergui.enu1</key></Toolbar-16562250></Sizes></Row1></Top><Left><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>474</Bottom><Right>460</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>287356</sizeHorzCY><sizeVertCX>338214</sizeVertCX><sizeVertCY>683908</sizeVertCY></Rect></Wnd4></Sizes></Row0></Left><Right><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>474</Bottom><Right>352</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>287356</sizeHorzCY><sizeVertCX>259151</sizeVertCX><sizeVertCY>683908</sizeVertCY></Rect></Wnd5></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>153</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>155</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>222701</sizeHorzCY><sizeVertCX>146413</sizeVertCX><sizeVertCY>287356</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></PoLap Dangions>
+  </Desktop>
+</Project>
+
+

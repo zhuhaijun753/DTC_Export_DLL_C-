@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        <PreferedWindows>
+          
+          
+          
+          
+        <PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1307</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>980</ColumnWidth1>
+        <ColumnWidth2>261</ColumnWidth2>
+        <ColumnWidth3>65</ColumnWidth3>
+        <PreferedWindows>
+          <PoLap Dangion>3</PoLap Dangion>
+          <ScreenPosX>0</ScreenPosX>
+          <ScreenPosY>0</ScreenPosY>
+          <Windows>
+            <Window>
+              <Factory>Debug-Log</Factory>
+            </Window>
+          </Windows>
+        </PreferedWindows>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>148</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        <PreferedWindows>
+          <PoLap Dangion>2</PoLap Dangion>
+          <ScreenPosX>0</ScreenPosX>
+          <ScreenPosY>0</ScreenPosY>
+          <Windows/>
+        </PreferedWindows>
+        
+        
+      <ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
+      <WATCH_1>
+        <expressions>
+          
+          
+          
+        <item>GUI_Manager</item><item>p_strItemListxxx[0]</item><item>p_strtMFRVehicleProfileTemp</item><item>g_strtMFRYMMESelectProfile</item><item>g_strtMFRVehicleProfileTemp</item><item>p_strBuffer</item><item>p_strtMFRVehSelectProfile-&gt;Lap DangemAmount</item><item>g_strtMFRYMMESelectProfile.eField</item><item>strtYMMEFieldStack</item><item>strtYMMEEntryStack</item><item>btemp</item><item>g_strtSystemInfo</item><item>(char*)GUI_Manager.p_strNameList[0]</item><item>pItem</item><item>GUI_Manager.p_strtGuiMnuFrm-&gt;strtGuiList.bNumberItem</item><item>pliststring[sIdx]</item><item>iDebugBaudRate</item><item>pRow[bit]</item><item></item></expressions>
+        <col-names>
+          
+          
+          
+          
+        <item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names>
+        <col-widths>
+          
+          
+          
+          
+        <item>153</item><item>150</item><item>100</item><item>211</item></col-widths>
+      </WATCH_1>
+    <Memory><FindDirection>1</FindDirection><FindAsHex>0</FindAsHex></Memory></Static>
+    <Windows>
+      
+      
+      
+    <Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-16320-30768</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>NWS_FW_TERM</ExpandedNode><ExpandedNode>NWS_FW_TERM/2_Middle</ExpandedNode><ExpandedNode>NWS_FW_TERM/2_Middle/2_Vehicle_Interface</ExpandedNode><ExpandedNode>NWS_FW_TERM/4_UI_Lib</ExpandedNode><ExpandedNode>NWS_FW_TERM/TERMINAL</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3><Wnd5>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-6972-31352</Identity>
+            <TabName>Watch 1</TabName>
+            <Factory>WATCH_1</Factory>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd5><Wnd6><Tabs><Tab><Identity>TabID-306-25114</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd6><Wnd7><Tabs><Tab><Identity>TabID-5706-3242</Identity><TabName>Memory</TabName><Factory>Memory</Factory><Session><ZoneNumber>0</ZoneNumber><SelectionAnchor>134362557</SelectionAnchor><SelectionEnd>134362557</SelectionEnd><UnitsPerGroup>1</UnitsPerGroup><EndianMode>0</EndianMode><DataCovEnabled>0</DataCovEnabled><DataCovShown>0</DataCovShown><AutoRefresh>0</AutoRefresh><HScroll>0</HScroll><VScroll>8397653</VScroll></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd7></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\..\OLDSVN\PROTOCOLAPI\BRANCHES\FW\UI_NWSCAN\1_APPLICATION\OBDToolMain.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>76</YPos2><SelStart2>2765</SelStart2><SelEnd2>2765</SelEnd2></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\..\OLDSVN\PROTOCOLAPI\BRANCHES\FW\UI_NWSCAN\2_MIDDLE\2_VEHICLE_INTERFACE\1_OBD_API\APP_DEBUG\NWSCAN_MAIN.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>34</YPos2><SelStart2>1111</SelStart2><SelEnd2>1111</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\..\OLDSVN\PROTOCOLAPI\BRANCHES\FW\UI_NWSCAN\1_APPLICATION\GMOBD1_DB.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>319</SelStart2><SelEnd2>342</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\..\OLDSVN\PROTOCOLAPI\BRANCHES\FW\UI_NWSCAN\2_MIDDLE\2_VEHICLE_INTERFACE\1_OBD_API\APP_DEBUG\TERM_UI_SystemMenu.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>167</YPos2><SelStart2>6780</SelStart2><SelEnd2>6780</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\..\OLDSVN\PROTOCOLAPI\BRANCHES\FW\UI_NWSCAN\2_MIDDLE\2_VEHICLE_INTERFACE\1_OBD_API\APP_DEBUG\SOURCE\DEBUG_UART\CORE\vinaterminal.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>950</SelStart2><SelEnd2>950</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\..\OLDSVN\PROTOCOLAPI\BRANCHES\FW\UI_NWSCAN\3_HARDWARE_CORE\1_MCU_CORE\STM32F427X\PERIPHERAL\SRC\stm32f4xx_usart.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1289</YPos2><SelStart2>51392</SelStart2><SelEnd2>51392</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <PoLap Dangions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00e73950><key>iaridepm.enu1</key></Toolbar-00e73950></Sizes></Row0><Row1><Sizes><Toolbar-0d1c2f08><key>debuggergui.enu1</key></Toolbar-0d1c2f08></Sizes></Row1><Row2><Sizes><Toolbar-0d1c2be8><key>armjlink.enu1</key></Toolbar-0d1c2be8></Sizes></Row2></Top><Left><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>643</Bottom><Right>222</Right><x>-2</x><y>-2</y><xscreen>142</xscreen><yscreen>119</yscreen><sizeHorzCX>73958</sizeHorzCX><sizeHorzCY>127409</sizeHorzCY><sizeVertCX>116667</sizeVertCX><sizeVertCY>690578</sizeVertCY></Rect></Wnd3></Sizes></Row0></Left><Right><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>643</Bottom><Right>351</Right><x>-2</x><y>-2</y><xscreen>142</xscreen><yscreen>119</yscreen><sizeHorzCX>73958</sizeHorzCX><sizeHorzCY>127409</sizeHorzCY><sizeVertCX>183854</sizeVertCX><sizeVertCY>690578</sizeVertCY></Rect></Wnd5></Sizes></Row0><Row1><Sizes><Wnd6><Rect><Top>-2</Top><Left>349</Left><Bottom>643</Bottom><Right>491</Right><x>349</x><y>-2</y><xscreen>142</xscreen><yscreen>119</yscreen><sizeHorzCX>73958</sizeHorzCX><sizeHorzCY>127409</sizeHorzCY><sizeVertCX>73958</sizeVertCX><sizeVertCY>690578</sizeVertCY></Rect></Wnd6></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd7><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>200</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>214133</sizeHorzCY><sizeVertCX>104167</sizeVertCX><sizeVertCY>214133</sizeVertCY></Rect></Wnd7></Sizes></Row0></Bottom><Float><Sizes/></Float></PoLap Dangions>
+  </Desktop>
+</Project>
+
+

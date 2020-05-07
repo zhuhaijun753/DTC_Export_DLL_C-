@@ -1,0 +1,77 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=451081855
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+CStepIntDis=_ 0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[struct_types]
+Fmt0=structOemProfile-sSystem	4	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "D:\Master_Project\OBDTool\Protool\ProtocolApi\branches\FW\ProtocolDevelop\Driver_MCU\CoreDriver\BSP_Timer_MCUDriver_STM32F4XX_3130E.c" ""
+A1=_ "D:\Master_Project\OBDTool\Protool\ProtocolApi\branches\FW\ProtocolDevelop\Driver_Tool\Driver_Tool_Core\DLCInterfaceCtrl_Core\BSP_DLCInterfaceCtrl_Core_STM32F4XX_3130E.c" ""
+A2=_ "T:\00NWSCAN\01SVN\NwScan\FW\NWCAN_MD75\MD75_85_NewPlatformStructureProject\2_Middle\2_Vehicle_Interface\NWSCAN_APP\Adapter\OBD2\OBDIILiveData\OBDIIFFrame.c" ""
+A3=_ "T:\00NWSCAN\01SVN\NwScan\FW\NWCAN_MD75\MD75_85_NewPlatformStructureProject\2_Middle\2_Vehicle_Interface\NWSCAN_APP\Adapter\OBD2\OBDIILiveData\OBDIILiveData.c" ""
+A4=_ "T:\00NWSCAN\01SVN\OBD2\NWSCAN_3130E_UI\NWSCAN_APP\OBD2\OBDIIDtc\OBDIIQuery.c" ""
+A5=_ "d:\Master_Project\OBDTool\Protool\ProtocolApi\branches\FW\ProtocolDevelop\Driver_MCU\CoreDriver\BSP_Timer_MCUDriver_STM32F4XX_3130E.c" ""
+A6=_ "d:\Master_Project\OBDTool\Protool\ProtocolApi\branches\FW\ProtocolDevelop\Driver_Tool\Driver_Tool_App\DLCInterfaceCtrl_App\DLCInterfaceCtrl_App.c" ""
+Count=7
+SuppressDialog=1

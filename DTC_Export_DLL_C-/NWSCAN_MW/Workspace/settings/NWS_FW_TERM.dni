@@ -1,0 +1,138 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-900931141
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[JLinkDriver]
+CStepIntDis=_ 0
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title0=I0
+Symbol0=0 4 1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+Title0=Ch0
+Symbol0=0 4 1
+Title1=Ch1
+Symbol1=0 4 1
+Title2=Ch2
+Symbol2=0 4 1
+Title3=Ch3
+Symbol3=0 4 1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\..\..\..\OLDSVN\PROTOCOLAPI\BRANCHES\FW\UI_NWSCAN\1_APPLICATION\3_USER_INTERFACE\3_UI_PROCESSES\PROCESSES\04_YMME_SELECTION\Proc_YMMESelection.c}.1023.9" 0 0 1 "" 0 "" 0
+Count=1
+[Aliases]
+A0=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\2_System_Initialization\OBDToolSetting.c" ""
+A1=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\3_User_Interface\4_Key_Processes\CommonKeyHandler.c" ""
+A2=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\0_Middle_Utilities\MLStringUtilities.c" ""
+A3=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\3_Storage\1_App_API\StorageMemoryInterface.c" ""
+A4=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\3_Storage\2_Driver\1_Internal_Flash\STM32F4xxIntFlashDriver.c" ""
+A5=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\4_User_Input\1_Keypad\KeyBoardApp.c" ""
+A6=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\5_Communication\1_Usb\2_Core\Libraries\STM32_USB_OTG_Driver\src\usb_core.c" ""
+A7=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\8_System\Timer\TimerApp.c" ""
+A8=_ "D:\TASK\MD75-85\MD75_85_NewPlatformStructureProject_Lap Dang_Jan2815\1_Application\3_User_Interface\3_UI_Processes\Processes\04_YMME_Selection\YMMESelection.c" ""
+A9=_ "E:\Embedded\PROJECTMANAGEMENT\0_MD75_MD85\Firmware\New_SVN\MD75_85_NEWPLATFORMSTRUCTUREPROJECT\1_Application\2_System_Initialization\SystemDriver.c" ""
+A10=_ "E:\Embedded\PROJECTMANAGEMENT\0_MD75_MD85\Firmware\New_SVN\MD75_85_NEWPLATFORMSTRUCTUREPROJECT\2_Middle\5_Communication\1_Usb\2_Core\Libraries\STM32_USB_Device_Library\Core\src\usbd_desc.c" ""
+A11=_ "E:\Embedded\PROJECTMANAGEMENT\0_MD75_MD85\Firmware\New_SVN\MD75_85_NEWPLATFORMSTRUCTUREPROJECT\2_Middle\5_Communication\1_Usb\2_Core\usr\usbd_storage_msd.c" ""
+Count=12
+SuppressDialog=1

@@ -1,0 +1,537 @@
+#ifndef VEHICLE_SUPPORTED_H
+#define VEHICLE_SUPPORTED_H
+/*
+*Group Vehicle
+  1/ Toyota Lexus
+  2/ Ford Mazda
+  3/ Hyundai Kia
+  4/ Peugeot Citroen
+  5/ VW Seat Audi Skoda
+  6/ Mitsubishi Soueast
+  7/ Nissan Infiniti
+  8/ Honda Acura
+*/
+
+//<start Of Api List>
+
+//#define API_TOOL_3230MX
+//#define API_TOOL_21XX
+//#define API_TOOL_3130C
+//#define API_TOOL_31703
+//#define API_FULL
+//#define API_TOOL_32XX_INTERNATIONAL
+//#define API_TOOL_3260JP
+//#define API_TOOL_3031JP
+//#define API_TOOL_31703EU
+//#define API_ONLY_GLOBAL
+//#define API_TOOL_31703_API
+//#define API_DEVELOPT
+
+#if (0)
+    #define API_TOOL_31703
+#elif ((defined(OBD3130D)) || (defined(OBD31X0D_NO_SD)))
+    #define API_TOOL_31703EU
+#elif defined(MD1032_SERIES)
+    #define API_TOOL_31703
+#elif defined(MD1052_SERIES)
+    #define API_TOOL_31703EU
+#else
+    #error Wrong series
+#endif
+
+//<End Of Api List>
+#define _SUPPORT_MI_Utility
+#ifdef API_ONLY_GLOBAL
+#warning only test global obdii
+#elif defined API_DEVELOPT
+#warning API_DEVELOPT
+#define _SUPPORT_NISSAN
+#define _SUPPORT_MERCEDES
+#define _SUPPORT_BMW
+#define _SUPPORT_VOLKSWAGEN
+#define _SUPPORT_FORD
+//#define _SUPPORT_MITSUBISHI
+#define _SUPPORT_HYUNDAI
+#define _SUPPORT_HONDA
+//#define _SUPPORT_SUZUKI
+//#define _SUPPORT_CITROEN
+//#define _SUPPORT_FIAT
+//#define _SUPPORT_LANDROVER
+//#define _SUPPORT_OPEL
+//#define _SUPPORT_PEUGEOT
+//#define _SUPPORT_RENAULT
+//#define _SUPPORT_DAIHATSU
+//#define _SUPPORT_SUBARU
+#define _SUPPORT_GM
+//#define _SUPPORT_CHERY_AUTO
+#define _SUPPORT_TOYOTA
+//#define _SUPPORT_CHANA
+#elif defined API_TOOL_OEM_3230MX
+#warning Building Library for 3230MX
+/*
+*Tool support manufacture
+*/
+
+#define _SUPPORT_FORD
+#define _SUPPORT_CHRYSLER
+#define _SUPPORT_GM
+#define _SUPPORT_TOYOTA
+#define _SUPPORT_HONDA
+#define _SUPPORT_PEUGEOT
+#define _SUPPORT_NISSAN
+#define _SUPPORT_VOLKSWAGEN
+#define _SUPPORT_HYUNDAI
+#define _SUPPORT_RENAULT
+#define _SUPPORT_OPEL
+#define _SUPPORT_DAIHATSU
+#define _SUPPORT_SUZUKI
+#define _SUPPORT_MITSUBISHI
+#define _SUPPORT_BMW
+#define _SUPPORT_MERCEDES
+#elif defined API_TOOL_3230MX
+
+#define _SUPPORT_ALFAROMEO
+#define _SUPPORT_AM_GENERAL
+#define _SUPPORT_AMC
+#define _SUPPORT_ASTON_MARTIN
+#define _SUPPORT_AUDI
+#define _SUPPORT_BENTLEY
+#define _SUPPORT_BMW
+#define _SUPPORT_BRILLIANCE
+#define _SUPPORT_BUGATTI
+#define _SUPPORT_BYD
+#define _SUPPORT_CHANA
+#define _SUPPORT_CHERY_AUTO
+#define _SUPPORT_CHRYSLER
+#define _SUPPORT_CITROEN
+#define _SUPPORT_DAEWOO
+#define _SUPPORT_DAIHATSU
+#define _SUPPORT_DELOREAN
+#define _SUPPORT_EAGLE
+#define _SUPPORT_FAW
+#define _SUPPORT_FAW_VW
+#define _SUPPORT_FERRARI
+#define _SUPPORT_FIAT
+#define _SUPPORT_FORD
+#define _SUPPORT_FREIGHTLINER
+#define _SUPPORT_GEELY
+#define _SUPPORT_GM
+#define _SUPPORT_GREATWALL
+#define _SUPPORT_HAFEI
+#define _SUPPORT_HONDA
+#define _SUPPORT_HYUNDAI
+#define _SUPPORT_ISUZU
+#define _SUPPORT_JAGUAR
+#define _SUPPORT_JEEP
+#define _SUPPORT_KIA
+#define _SUPPORT_LAMBORGHINI
+#define _SUPPORT_LANDROVER
+#define _SUPPORT_LIFAN
+#define _SUPPORT_LOTUS
+#define _SUPPORT_MASERATI
+#define _SUPPORT_MATRIX
+#define _SUPPORT_MAZDA
+#define _SUPPORT_MERCEDES
+#define _SUPPORT_MERKUR
+#define _SUPPORT_MESAC
+#define _SUPPORT_MITSUBISHI
+#define _SUPPORT_NISSAN
+#define _SUPPORT_OPEL
+#define _SUPPORT_PASSPORT
+#define _SUPPORT_PEUGEOT
+#define _SUPPORT_PORSCHE
+#define _SUPPORT_RENAULT
+#define _SUPPORT_ROLLS_ROYCE
+#define _SUPPORT_SAAB
+#define _SUPPORT_SMART
+#define _SUPPORT_SOUEST
+#define _SUPPORT_STERLING
+#define _SUPPORT_SUBARU
+#define _SUPPORT_SUZUKI
+#define _SUPPORT_TESLA
+#define _SUPPORT_THINK
+#define _SUPPORT_TIAMA
+#define _SUPPORT_TOYOTA
+#define _SUPPORT_VOLKSWAGEN
+#define _SUPPORT_VOLVO
+#define _SUPPORT_WULING
+#define _SUPPORT_YUGO
+#define _SUPPORT_JAC
+#define _SUPPORT_SEAT
+#define _SUPPORT_CHANGFENG
+
+#define _SUPPORT_HONDA_OBD1
+#define _SUPPORT_CHRYSLER_OBD1
+#define _SUPPORT_TOYOTA_OBD1
+#define _SUPPORT_GM_OBD1
+#define _SUPPORT_FORD_OBD1
+#elif defined API_TOOL_32XX_INTERNATIONAL
+#warning Building Library for API_FULL
+/*
+*Tool support manufacture
+*/
+#define _SUPPORT_ALFAROMEO
+#define _SUPPORT_AM_GENERAL
+#define _SUPPORT_AMC
+#define _SUPPORT_ASTON_MARTIN
+#define _SUPPORT_AUDI
+#define _SUPPORT_BENTLEY
+#define _SUPPORT_BMW
+#define _SUPPORT_BRILLIANCE
+#define _SUPPORT_BUGATTI
+#define _SUPPORT_BYD
+#define _SUPPORT_CHANA
+#define _SUPPORT_CHERY_AUTO
+#define _SUPPORT_CHRYSLER
+#define _SUPPORT_CITROEN
+#define _SUPPORT_DAEWOO
+#define _SUPPORT_DAIHATSU
+#define _SUPPORT_DELOREAN
+#define _SUPPORT_EAGLE
+#define _SUPPORT_FAW
+#define _SUPPORT_FAW_VW
+#define _SUPPORT_FERRARI
+#define _SUPPORT_FIAT
+#define _SUPPORT_FORD
+#define _SUPPORT_FREIGHTLINER
+#define _SUPPORT_GEELY
+#define _SUPPORT_GM
+#define _SUPPORT_GREATWALL
+#define _SUPPORT_HAFEI
+#define _SUPPORT_HONDA
+#define _SUPPORT_HYUNDAI
+#define _SUPPORT_ISUZU
+#define _SUPPORT_JAGUAR
+#define _SUPPORT_JEEP
+#define _SUPPORT_KIA
+#define _SUPPORT_LAMBORGHINI
+#define _SUPPORT_LANDROVER
+#define _SUPPORT_LIFAN
+#define _SUPPORT_LOTUS
+#define _SUPPORT_MASERATI
+#define _SUPPORT_MATRIX
+#define _SUPPORT_MAZDA
+#define _SUPPORT_MERCEDES
+#define _SUPPORT_MERKUR
+#define _SUPPORT_MESAC
+#define _SUPPORT_MITSUBISHI
+#define _SUPPORT_NISSAN
+#define _SUPPORT_OPEL
+#define _SUPPORT_PASSPORT
+#define _SUPPORT_PEUGEOT
+#define _SUPPORT_PORSCHE
+#define _SUPPORT_RENAULT
+#define _SUPPORT_ROLLS_ROYCE
+#define _SUPPORT_SAAB
+#define _SUPPORT_SMART
+#define _SUPPORT_SOUEST
+#define _SUPPORT_STERLING
+#define _SUPPORT_SUBARU
+#define _SUPPORT_SUZUKI
+#define _SUPPORT_TESLA
+#define _SUPPORT_THINK
+#define _SUPPORT_TIAMA
+#define _SUPPORT_TOYOTA
+#define _SUPPORT_VOLKSWAGEN
+#define _SUPPORT_VOLVO
+#define _SUPPORT_WULING
+#define _SUPPORT_YUGO
+#define _SUPPORT_JAC
+#define _SUPPORT_SEAT
+#define _SUPPORT_CHANGFENG
+
+#define _SUPPORT_HONDA_OBD1
+#define _SUPPORT_CHRYSLER_OBD1
+#define _SUPPORT_TOYOTA_OBD1
+#define _SUPPORT_GM_OBD1
+#define _SUPPORT_FORD_OBD1
+
+#elif defined API_FULL
+#warning Building Library for API_FULL
+/*
+*Tool support manufacture
+*/
+#define _SUPPORT_ALFAROMEO
+#define _SUPPORT_AM_GENERAL
+#define _SUPPORT_AMC
+#define _SUPPORT_ASTON_MARTIN
+#define _SUPPORT_AUDI
+#define _SUPPORT_BENTLEY
+#define _SUPPORT_BMW
+#define _SUPPORT_BRILLIANCE
+#define _SUPPORT_BUGATTI
+#define _SUPPORT_BYD
+#define _SUPPORT_CHANA
+#define _SUPPORT_CHERY_AUTO
+#define _SUPPORT_CHRYSLER
+#define _SUPPORT_CITROEN
+#define _SUPPORT_DAEWOO
+#define _SUPPORT_DAIHATSU
+#define _SUPPORT_DELOREAN
+#define _SUPPORT_EAGLE
+#define _SUPPORT_FAW
+#define _SUPPORT_FAW_VW
+#define _SUPPORT_FERRARI
+#define _SUPPORT_FIAT
+#define _SUPPORT_FORD
+#define _SUPPORT_FREIGHTLINER
+#define _SUPPORT_GEELY
+#define _SUPPORT_GM
+#define _SUPPORT_GREATWALL
+#define _SUPPORT_HAFEI
+#define _SUPPORT_HONDA
+#define _SUPPORT_HYUNDAI
+#define _SUPPORT_ISUZU
+#define _SUPPORT_JAGUAR
+#define _SUPPORT_JEEP
+#define _SUPPORT_KIA
+#define _SUPPORT_LAMBORGHINI
+#define _SUPPORT_LANDROVER
+#define _SUPPORT_LIFAN
+#define _SUPPORT_LOTUS
+#define _SUPPORT_MASERATI
+#define _SUPPORT_MATRIX
+#define _SUPPORT_MAZDA
+#define _SUPPORT_MERCEDES
+#define _SUPPORT_MERKUR
+#define _SUPPORT_MESAC
+#define _SUPPORT_MITSUBISHI
+#define _SUPPORT_NISSAN
+#define _SUPPORT_OPEL
+#define _SUPPORT_PASSPORT
+#define _SUPPORT_PEUGEOT
+#define _SUPPORT_PORSCHE
+#define _SUPPORT_RENAULT
+#define _SUPPORT_ROLLS_ROYCE
+#define _SUPPORT_SAAB
+#define _SUPPORT_SMART
+#define _SUPPORT_SOUEST
+#define _SUPPORT_STERLING
+#define _SUPPORT_SUBARU
+#define _SUPPORT_SUZUKI
+#define _SUPPORT_TESLA
+#define _SUPPORT_THINK
+#define _SUPPORT_TIAMA
+#define _SUPPORT_TOYOTA
+#define _SUPPORT_VOLKSWAGEN
+#define _SUPPORT_VOLVO
+#define _SUPPORT_WULING
+#define _SUPPORT_YUGO
+#define _SUPPORT_JAC
+#define _SUPPORT_SEAT
+#define _SUPPORT_CHANGFENG
+
+#define _SUPPORT_HONDA_OBD1
+#define _SUPPORT_CHRYSLER_OBD1
+#define _SUPPORT_TOYOTA_OBD1
+#define _SUPPORT_GM_OBD1
+#define _SUPPORT_FORD_OBD1
+
+#define _SUPPORT_HEBEI_ZHONGXING
+#elif defined API_TOOL_31703_API
+#warning Building Library for API_FULL
+
+/*
+*Tool support manufacture
+*/
+#define _SUPPORT_ALFAROMEO
+#define _SUPPORT_AM_GENERAL
+#define _SUPPORT_AMC
+#define _SUPPORT_ASTON_MARTIN
+#define _SUPPORT_AUDI
+#define _SUPPORT_BENTLEY
+#define _SUPPORT_BMW
+#define _SUPPORT_BRILLIANCE
+#define _SUPPORT_BUGATTI
+#define _SUPPORT_BYD
+#define _SUPPORT_CHANA
+#define _SUPPORT_CHERY_AUTO
+#define _SUPPORT_CHRYSLER
+#define _SUPPORT_CITROEN
+#define _SUPPORT_DAEWOO
+#define _SUPPORT_DAIHATSU
+#define _SUPPORT_DELOREAN
+#define _SUPPORT_EAGLE
+#define _SUPPORT_FAW
+#define _SUPPORT_FAW_VW
+#define _SUPPORT_FERRARI
+#define _SUPPORT_FIAT
+#define _SUPPORT_FORD
+#define _SUPPORT_FREIGHTLINER
+#define _SUPPORT_GEELY
+#define _SUPPORT_GM
+#define _SUPPORT_GREATWALL
+#define _SUPPORT_HAFEI
+#define _SUPPORT_HONDA
+#define _SUPPORT_HYUNDAI
+#define _SUPPORT_ISUZU
+#define _SUPPORT_JAGUAR
+#define _SUPPORT_JEEP
+#define _SUPPORT_KIA
+#define _SUPPORT_LAMBORGHINI
+#define _SUPPORT_LANDROVER
+#define _SUPPORT_LIFAN
+#define _SUPPORT_LOTUS
+#define _SUPPORT_MASERATI
+#define _SUPPORT_MATRIX
+#define _SUPPORT_MAZDA
+#define _SUPPORT_MERCEDES
+#define _SUPPORT_MERKUR
+#define _SUPPORT_MESAC
+#define _SUPPORT_MITSUBISHI
+#define _SUPPORT_NISSAN
+#define _SUPPORT_OPEL
+#define _SUPPORT_PASSPORT
+#define _SUPPORT_PEUGEOT
+#define _SUPPORT_PORSCHE
+#define _SUPPORT_RENAULT
+#define _SUPPORT_ROLLS_ROYCE
+#define _SUPPORT_SAAB
+#define _SUPPORT_SMART
+#define _SUPPORT_SOUEST
+#define _SUPPORT_STERLING
+#define _SUPPORT_SUBARU
+#define _SUPPORT_SUZUKI
+#define _SUPPORT_TESLA
+#define _SUPPORT_THINK
+#define _SUPPORT_TIAMA
+#define _SUPPORT_TOYOTA
+#define _SUPPORT_VOLKSWAGEN
+#define _SUPPORT_VOLVO
+#define _SUPPORT_WULING
+#define _SUPPORT_YUGO
+#define _SUPPORT_JAC
+#define _SUPPORT_SEAT
+#define _SUPPORT_CHANGFENG
+
+#define _SUPPORT_HONDA_OBD1
+#define _SUPPORT_CHRYSLER_OBD1
+#define _SUPPORT_TOYOTA_OBD1
+#define _SUPPORT_GM_OBD1
+#define _SUPPORT_FORD_OBD1
+
+#elif defined  API_TOOL_21XX
+#warning Building Library for TOOL_21XX
+
+/*
+*Tool support manufacture
+*/
+#define _SUPPORT_FORD
+#define _SUPPORT_CHRYSLER
+#define _SUPPORT_GM
+#define _SUPPORT_TOYOTA
+#define _SUPPORT_HONDA
+#elif defined API_TOOL_3130C
+#warning Building Library for TOOL_3130C
+/*
+*Tool support manufacture
+*/
+#define _SUPPORT_FORD
+#define _SUPPORT_CHRYSLER
+#define _SUPPORT_GM
+#define _SUPPORT_TOYOTA
+#define _SUPPORT_HONDA
+#define _SUPPORT_HONDA_OBD1
+#define _SUPPORT_CHRYSLER_OBD1
+#define _SUPPORT_TOYOTA_OBD1
+#define _SUPPORT_GM_OBD1
+#define _SUPPORT_FORD_OBD1
+#elif defined API_TOOL_31703
+#warning Building Library for TOOL_31703
+/*
+*Tool support manufacture
+*/
+#define _SUPPORT_FORD
+#define _SUPPORT_CHRYSLER
+#define _SUPPORT_GM
+#define _SUPPORT_TOYOTA
+#define _SUPPORT_HONDA
+//#define _SUPPORT_HYUNDAI
+//#define _SUPPORT_KIA
+//#define _SUPPORT_NISSAN
+
+#define _SUPPORT_HONDA_OBD1
+#define _SUPPORT_CHRYSLER_OBD1
+#define _SUPPORT_TOYOTA_OBD1
+#define _SUPPORT_GM_OBD1
+#define _SUPPORT_FORD_OBD1
+#elif defined API_TOOL_31703EU
+#warning Building Library for TOOL_31703EU
+
+/*
+*Tool support manufacture
+*/
+#define _SUPPORT_FORD
+#define _SUPPORT_CHRYSLER
+#define _SUPPORT_GM
+#define _SUPPORT_TOYOTA
+#define _SUPPORT_HONDA
+#define _SUPPORT_HONDA_OBD1
+#define _SUPPORT_CHRYSLER_OBD1
+#define _SUPPORT_TOYOTA_OBD1
+#define _SUPPORT_GM_OBD1
+#define _SUPPORT_FORD_OBD1
+#define _SUPPORT_MERCEDES
+#define _SUPPORT_BMW
+#define _SUPPORT_AUDI
+#define _SUPPORT_VOLKSWAGEN
+#define _SUPPORT_HYUNDAI
+#define _SUPPORT_KIA
+#define _SUPPORT_NISSAN
+#define _SUPPORT_VOLVO
+
+//August1814 Lap Dang added Mazda, Jaguar, Land Rover
+#define _SUPPORT_MAZDA
+#define _SUPPORT_JAGUAR
+#define _SUPPORT_LANDROVER
+
+
+#elif defined API_TOOL_3260JP
+
+/*
+*Tool support manufacture
+*/
+#define _SUPPORT_CHRYSLER
+#define _SUPPORT_DAIHATSU
+#define _SUPPORT_FORD
+#define _SUPPORT_GM
+#define _SUPPORT_HONDA
+#define _SUPPORT_ISUZU
+#define _SUPPORT_MAZDA
+#define _SUPPORT_MITSUBISHI
+#define _SUPPORT_NISSAN
+#define _SUPPORT_SUBARU
+#define _SUPPORT_SUZUKI
+#define _SUPPORT_TOYOTA
+#define _SUPPORT_HINO
+#elif defined API_TOOL_3031JP
+#warning Building Library for API_TOOL_3031JP
+
+/*
+*Tool support manufacture
+*/
+#define _SUPPORT_AUDI
+#define _SUPPORT_BMW
+#define _SUPPORT_CHRYSLER
+#define _SUPPORT_DAEWOO
+#define _SUPPORT_DAIHATSU
+#define _SUPPORT_FORD
+#define _SUPPORT_GM
+#define _SUPPORT_HONDA
+#define _SUPPORT_HYUNDAI
+#define _SUPPORT_ISUZU
+#define _SUPPORT_JAGUAR
+#define _SUPPORT_JEEP
+#define _SUPPORT_KIA
+#define _SUPPORT_MAZDA
+#define _SUPPORT_MERCEDES
+#define _SUPPORT_MITSUBISHI
+#define _SUPPORT_NISSAN
+#define _SUPPORT_SUBARU
+#define _SUPPORT_SUZUKI
+#define _SUPPORT_TOYOTA
+#define _SUPPORT_VOLKSWAGEN
+#else
+#error sellect specific tool
+#endif
+#endif

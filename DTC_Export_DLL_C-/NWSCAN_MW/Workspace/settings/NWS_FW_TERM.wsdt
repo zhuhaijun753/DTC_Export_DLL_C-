@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>NWS_FW_TERM/UI_LIB_SD_ASIC</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>629</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>980</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build>
+    <TerminalIO/><Debug-Log><PreferedWindows><PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1307</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-8331-28257</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>NWS_FW_TERM</ExpandedNode><ExpandedNode>NWS_FW_TERM/1_Application</ExpandedNode><ExpandedNode>NWS_FW_TERM/1_Application/3_User_Interface</ExpandedNode><ExpandedNode>NWS_FW_TERM/1_Application/3_User_Interface/3_UI_Processes</ExpandedNode><ExpandedNode>NWS_FW_TERM/1_Application/3_User_Interface/3_UI_Processes/Proc_Manager</ExpandedNode><ExpandedNode>NWS_FW_TERM/1_Application/3_User_Interface/3_UI_Processes/Processes</ExpandedNode><ExpandedNode>NWS_FW_TERM/1_Application/3_User_Interface/3_UI_Processes/Processes/04_YMME_Selection</ExpandedNode><ExpandedNode>NWS_FW_TERM/1_Application/3_User_Interface/3_UI_Processes/Processes/04_YMME_Selection/Lib</ExpandedNode><ExpandedNode>NWS_FW_TERM/1_Application/3_User_Interface/3_UI_Processes/Processes/05_VIN_Decode</ExpandedNode><ExpandedNode>NWS_FW_TERM/2_Middle</ExpandedNode><ExpandedNode>NWS_FW_TERM/2_Middle/0_Middle_Utilities</ExpandedNode><ExpandedNode>NWS_FW_TERM/2_Middle/0_Middle_Utilities/AES</ExpandedNode><ExpandedNode>NWS_FW_TERM/2_Middle/2_Vehicle_Interface</ExpandedNode><ExpandedNode>NWS_FW_TERM/2_Middle/2_Vehicle_Interface/LIB</ExpandedNode><ExpandedNode>NWS_FW_TERM/2_Middle/2_Vehicle_Interface/NWSCAN_UI</ExpandedNode><ExpandedNode>NWS_FW_TERM/2_Middle/2_Vehicle_Interface/NWSCAN_UI/Common</ExpandedNode><ExpandedNode>NWS_FW_TERM/2_Middle/2_Vehicle_Interface/NWSCAN_UI/UI</ExpandedNode><ExpandedNode>NWS_FW_TERM/4_UI_Lib</ExpandedNode><ExpandedNode>NWS_FW_TERM/TERMINAL</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-20575-32085</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-28477-25554</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\..\OLDSVN\PROTOCOLAPI\BRANCHES\FW\UI_NWSCAN\1_APPLICATION\OBDToolMain.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>76</YPos2><SelStart2>2765</SelStart2><SelEnd2>2765</SelEnd2></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\..\OLDSVN\PROTOCOLAPI\BRANCHES\FW\UI_NWSCAN\2_MIDDLE\2_VEHICLE_INTERFACE\1_OBD_API\APP_DEBUG\NWSCAN_MAIN.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>34</YPos2><SelStart2>1111</SelStart2><SelEnd2>1111</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\..\OLDSVN\PROTOCOLAPI\BRANCHES\FW\UI_NWSCAN\1_APPLICATION\GMOBD1_DB.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>319</SelStart2><SelEnd2>342</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\..\OLDSVN\PROTOCOLAPI\BRANCHES\FW\UI_NWSCAN\2_MIDDLE\2_VEHICLE_INTERFACE\1_OBD_API\APP_DEBUG\TERM_UI_SystemMenu.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>167</YPos2><SelStart2>6780</SelStart2><SelEnd2>6780</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\..\OLDSVN\PROTOCOLAPI\BRANCHES\FW\UI_NWSCAN\2_MIDDLE\2_VEHICLE_INTERFACE\1_OBD_API\APP_DEBUG\SOURCE\DEBUG_UART\CORE\vinaterminal.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>950</SelStart2><SelEnd2>950</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\..\OLDSVN\PROTOCOLAPI\BRANCHES\FW\UI_NWSCAN\3_HARDWARE_CORE\1_MCU_CORE\STM32F427X\PERIPHERAL\SRC\stm32f4xx_usart.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1289</YPos2><SelStart2>51392</SelStart2><SelEnd2>51392</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <PoLap Dangions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00e73950><key>iaridepm.enu1</key></Toolbar-00e73950></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>618</Bottom><Right>720</Right><x>-2</x><y>-2</y><xscreen>395</xscreen><yscreen>412</yscreen><sizeHorzCX>205729</sizeHorzCX><sizeHorzCY>441113</sizeHorzCY><sizeVertCX>376042</sizeVertCX><sizeVertCY>663812</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>271</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>273</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>292291</sizeHorzCY><sizeVertCX>146354</sizeVertCX><sizeVertCY>292291</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></PoLap Dangions>
+  </Desktop>
+</Workspace>
+
+

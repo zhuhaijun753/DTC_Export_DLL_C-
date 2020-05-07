@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8B8B1FBC-F873-417A-9AE8-3A97E57544C0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>NWSCAN_DTC</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <ExcludePath>$(ExcludePath)</ExcludePath>
+    <OutDir>D:\[INNOVA]_DTC Definition\FIRMWARE\DTC\Release\DTC_APP</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;MATCO_TOOLS=1;DEBUG_ENABLE_MASS_STORAGE=1;FLASH_SECURE_DISABLE;SCROLL_UP_DOWN_DTC;USING_NAND_FLASH=1;NAND_USE_ADC_3_INTERRUPT=1;_INFLASH_VEHICLE_DATA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\1_Application\3_User_Interface;$(SolutionDir)\..\1_Application\3_User_Interface\5_Vehicle_Data_Process;$(SolutionDir)\..\..\Release\DTC_APP;$(SolutionDir)\..\2_Middle\1_Display\2_LCM\2_Driver;$(SolutionDir)\..\1_Application\3_User_Interface\2_GUI_Database\1_Main_Flow\1_Text_DB;$(SolutionDir)\..\2_Middle\1_Display\2_LCM\1_App_API\Innova_GUI\inc\;$(SolutionDir)\..\2_Middle\1_Display\2_LCM\1_App_API\Font\;$(SolutionDir)\..\2_Middle\1_Display\2_LCM\3_App_Driver_Interface;$(SolutionDir)\..\2_Middle\0_Middle_Utilities\System_Process_UI;$(SolutionDir)\..\2_Middle\1_Display\2_LCM\1_App_API\Innova_GUI\inc;$(SolutionDir)\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\MW_LIB;$(SolutionDir)\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\LIB;$(SolutionDir)\..\2_Middle\2_Vehicle_Interface\1_OBD_API;$(SolutionDir)\..\2_Middle\0_Middle_Utilities;$(SolutionDir)\..\1_Application\3_User_Interface\3_UI_Processes\Processes\04_YMME_Selection;$(SolutionDir)\..\..\Release;$(SolutionDir)\..\..\NWSCAN_MW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>OBDToolConf.h</PrecompiledHeaderFile>
+      <ShowIncludes>true</ShowIncludes>
+      <CompileAs>Default</CompileAs>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>Encrypter.lib</ImportLibrary>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\1_Application\1_Tool_Configuration\OBDToolConf.h" />
+    <ClInclude Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DTCDefinition.h" />
+    <ClInclude Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DTCDefinitionConfig.h" />
+    <ClInclude Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DTCUtilities.h" />
+    <ClInclude Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\LIB\PlatFormType.h" />
+    <ClInclude Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\MW_LIB\SYS_SD_Utilities.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\BMW_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\CHRYSLER_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\Default_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DTCDefinition.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DtcParser.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DTCUtilities.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\FIAT_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\FORD_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\GLOBAL_TRUCK_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\GM_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\HONDA_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\HUYNDAI_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\JAGUAR_LAND_ROVER_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\MAZDA_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\MERCEDES_BENZ_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\MITSUBISHI_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\NISSAN_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\RENAULT_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\SUBARU_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\SUZUKI_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\TOYOTA_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\VDM_DTC_Path.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\VOLKSWAGEN_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\VOLVO_Adapter_DtcDef.c" />
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\MW_LIB\SYS_SD_Utilities.c" />
+    <ClCompile Include="Adapter\Win32_Dll_Adapter.c" />
+    <ClCompile Include="NWSCAN_DTC.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

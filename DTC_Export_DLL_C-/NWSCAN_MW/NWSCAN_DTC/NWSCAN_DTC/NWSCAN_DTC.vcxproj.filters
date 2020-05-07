@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{6ff6d1b5-0889-4a9b-9038-3d68636648ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adapter">
+      <UniqueIdentifier>{3e5b4118-eead-4827-8818-d97fa8bd1af7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DTCDefinition.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DTCDefinitionConfig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DTCUtilities.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\1_Application\1_Tool_Configuration\OBDToolConf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\LIB\PlatFormType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\MW_LIB\SYS_SD_Utilities.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\BMW_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\CHRYSLER_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\Default_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DTCDefinition.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DTCUtilities.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\FORD_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\GM_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\HONDA_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\HUYNDAI_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\MAZDA_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\MERCEDES_BENZ_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\NISSAN_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\TOYOTA_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\VOLKSWAGEN_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\VOLVO_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NWSCAN_DTC.c">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Adapter\Win32_Dll_Adapter.c">
+      <Filter>Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DtcParser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\VDM_DTC_Path.c">
+      <Filter>Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\MW_LIB\SYS_SD_Utilities.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\FIAT_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\GLOBAL_TRUCK_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\JAGUAR_LAND_ROVER_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\MITSUBISHI_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\SUZUKI_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\RENAULT_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\SUBARU_Adapter_DtcDef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

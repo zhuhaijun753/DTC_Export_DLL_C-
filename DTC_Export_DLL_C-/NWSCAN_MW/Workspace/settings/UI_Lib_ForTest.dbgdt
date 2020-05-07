@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <PreferedWindows><PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1529</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>1146</ColumnWidth1>
+        <ColumnWidth2>305</ColumnWidth2>
+        <ColumnWidth3>76</ColumnWidth3>
+      <PreferedWindows><PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>321</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      <PreferedWindows><PoLap Dangion>1</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <PreferedWindows><PoLap Dangion>2</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>WATCH_1</Factory></Window></Windows></PreferedWindows><ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
+    <WATCH_1><expressions><item>p_strtListReadDTC-&gt;strtppReadDTC[bIdxCmd]</item><item>pCmd</item><item>iKeyAddr</item><item>0x12d63a*3</item><item>p_strtLinkProfile</item><item>bResLen</item><item>p_strtProfileDB</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>157</item><item>150</item><item>100</item><item>440</item></col-widths><PreferedWindows><PoLap Dangion>2</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></WATCH_1><CallStack><col-names><item>Frame</item><item>_I0</item></col-names><col-widths><item>400</item><item>20</item></col-widths><PreferedWindows><PoLap Dangion>1</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></CallStack><Memory><PreferedWindows><PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><FindDirection>1</FindDirection><FindAsHex>0</FindAsHex></Memory><Breakpoints><col-names><item>Breakpoint</item><item>_I0</item></col-names><col-widths><item>500</item><item>35</item></col-widths><PreferedWindows><PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Breakpoints><Extra-Trace><PreferedWindows><PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><col-names><item>Comment</item><item>Cycles</item><item>Event</item><item>Index</item><item>SWO Packet</item><item>Trace</item><item>Value</item></col-names><col-widths><item>400</item><item>100</item><item>200</item><item>70</item><item>100</item><item>300</item><item>100</item></col-widths></Extra-Trace><PROFILING2><PreferedWindows><PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><col-names><item>Function</item><item>PC Samples</item><item>PC Samples (%)</item></col-names><col-widths><item>220</item><item>80</item><item>100</item></col-widths></PROFILING2><DRIVER_DATA_STAT><PreferedWindows><PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><col-names><item>Data</item><item>Read Accesses</item><item>Total Accesses</item><item>Write Accesses</item></col-names><col-widths><item>200</item><item>120</item><item>120</item><item>120</item></col-widths></DRIVER_DATA_STAT><DRIVER_INTERRUPT_LOG><PreferedWindows><PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><col-names><item>Execution Time</item><item>Interrupt</item><item>Program Counter</item><item>Status</item><item>Time</item></col-names><col-widths><item>180</item><item>300</item><item>100</item><item>120</item><item>180</item></col-widths></DRIVER_INTERRUPT_LOG><TerminalIO><PreferedWindows><PoLap Dangion>2</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><InputSource>1</InputSource><InputMode>10</InputMode><Filename>$PROJ_DIR$\TermIOInput.txt</Filename><InputEcho>1</InputEcho><ShowReset>0</ShowReset></TerminalIO><Find-in-Files><PreferedWindows><PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>664</ColumnWidth0><ColumnWidth1>94</ColumnWidth1><ColumnWidth2>1138</ColumnWidth2></Find-in-Files><QuickWatch><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>150</item><item>100</item><item>100</item></col-widths><QWatchHistory/><PreferedWindows><PoLap Dangion>2</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Disassembly</Factory></Window></Windows></PreferedWindows></QuickWatch><StaticWatch><expressions><item>sizeof(g_strtNWScanLinkProfile)</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>150</item><item>100</item><item>100</item></col-widths><PreferedWindows><PoLap Dangion>2</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>WATCH_1</Factory></Window><Window><Factory>Disassembly</Factory></Window><Window><Factory>QuickWatch</Factory></Window></Windows></PreferedWindows></StaticWatch><Register><PreferedWindows><PoLap Dangion>2</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Register><WATCH_2><expressions><item>p_strtVehicleProfile</item><item>p_strtOemProfile</item><item>pstrtRespBuff_Temp</item><item>p_VehicleProfile</item><item>pstrtVehicleProfile</item><item>p_strtMFRVinProfile</item><item>g_strtNWScanVehicleProfile</item><item>pstrtVehicleProfile</item><item>p_strtLinkProfile</item><item>eManufacture</item><item>g_strtYMMEOBD1Profile</item><item>eProtocolDetected</item><item>p_strtLinkProfile-&gt;strtKlineInitParam.sKeyWord</item><item>eProtocolDetected</item><item>pstrtOemProfile</item><item>pstrtMFRVinProfile</item><item>pstrtVehicleProfile</item><item>p_strtVehDB</item><item>eOBD1ProfileID</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>196</item><item>150</item><item>100</item><item>381</item></col-widths><PreferedWindows><PoLap Dangion>2</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></WATCH_2><STACK_1><col-names><item>Data</item><item>Frame</item><item>Location</item><item>Type</item><item>Value</item><item>Variable</item></col-names><col-widths><item>100</item><item>100</item><item>100</item><item>100</item><item>100</item><item>100</item></col-widths><PreferedWindows><PoLap Dangion>1</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>CallStack</Factory></Window></Windows></PreferedWindows><stack>CSTACK</stack><width>4</width><vars>1</vars><offset>0</offset></STACK_1><Locals><col-names><item>Location</item><item>Type</item><item>Value</item><item>Variable</item></col-names><col-widths><item>150</item><item>100</item><item>100</item><item>100</item></col-widths></Locals></Static>
+    <Windows>
+      
+      
+      
+    <Wnd3><Tabs><Tab><Identity>TabID-8625-16444</Identity><TabName>Workspace</TabName><Factory>Workspace</Factory><Session><NodeDict><ExpandedNode>UI_Lib_ForTest</ExpandedNode><ExpandedNode>UI_Lib_ForTest/0_Common_Use</ExpandedNode><ExpandedNode>UI_Lib_ForTest/1_Application</ExpandedNode><ExpandedNode>UI_Lib_ForTest/2_Middle</ExpandedNode><ExpandedNode>UI_Lib_ForTest/2_Middle/2_Vehicle_Interface</ExpandedNode><ExpandedNode>UI_Lib_ForTest/2_Middle/2_Vehicle_Interface/NWSCAN_UI</ExpandedNode><ExpandedNode>UI_Lib_ForTest/2_Middle/2_Vehicle_Interface/NWSCAN_UI/UI</ExpandedNode><ExpandedNode>UI_Lib_ForTest/3_Hardware_Core</ExpandedNode><ExpandedNode>UI_Lib_ForTest/4_UI_Lib</ExpandedNode></NodeDict></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3><Wnd4><Tabs><Tab><Identity>TabID-15955-28323</Identity><TabName>Register</TabName><Factory>Register</Factory><Session><REG1>0</REG1><REG2>0</REG2><Group>70</Group><States>4</States><State0>CAN1_BTR</State0><State1>CAN1_RF0R</State1><State2>CAN1_RF1R</State2><State3>CAN1_TSR</State3></Session></Tab><Tab><Identity>TabID-22020-30257</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab><Tab><Identity>TabID-29603-16834</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab><Tab><Identity>TabID-9468-7344</Identity><TabName>Locals</TabName><Factory>Locals</Factory></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd4></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\3_HARDWARE_CORE\1_MCU_CORE\STM32F427X\startup\startup_stm32f4xx.s</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>163</YPos2><SelStart2>12405</SelStart2><SelEnd2>12405</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\PROC_UI\FordOnDemand\Proc_NWScan_FordEnh.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>140</YPos2><SelStart2>5338</SelStart2><SelEnd2>5338</SelEnd2></Tab><ActiveTab>1</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <PoLap Dangions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00ec9a90><key>iaridepm.enu1</key></Toolbar-00ec9a90></Sizes></Row0><Row1><Sizes><Toolbar-0e591b78><key>debuggergui.enu1</key></Toolbar-0e591b78></Sizes></Row1><Row2><Sizes><Toolbar-0e58b138><key>armjlink.enu1</key></Toolbar-0e58b138></Sizes></Row2></Top><Left><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>593</Bottom><Right>412</Right><x>-2</x><y>-2</y><xscreen>38</xscreen><yscreen>25</yscreen><sizeHorzCX>27818</sizeHorzCX><sizeHorzCY>36443</sizeHorzCY><sizeVertCX>303075</sizeVertCX><sizeVertCY>867347</sizeVertCY></Rect></Wnd3></Sizes></Row0></Left><Right><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>593</Bottom><Right>361</Right><x>-2</x><y>-2</y><xscreen>75</xscreen><yscreen>56</yscreen><sizeHorzCX>54905</sizeHorzCX><sizeHorzCY>81633</sizeHorzCY><sizeVertCX>265739</sizeVertCX><sizeVertCY>867347</sizeVertCY></Rect></Wnd4></Sizes></Row0></Right><Bottom><Row0><Sizes/></Row0></Bottom><Float><Sizes/></Float></PoLap Dangions>
+  </Desktop>
+</Project>
+
+

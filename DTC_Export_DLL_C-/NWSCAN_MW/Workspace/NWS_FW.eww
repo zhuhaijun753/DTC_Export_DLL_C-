@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\NWS_Adapter.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>BuildAll</name>
+      <member>
+        <project>NWS_Adapter</project>
+        <configuration>NWSCAN_ADAPTER_LIB</configuration>
+      </member>
+      <member>
+        <project>3130E</project>
+        <configuration>UI_LIB_SD</configuration>
+      </member>
+      <member>
+        <project>3130E_ASIC</project>
+        <configuration>UI_LIB_SD_ASIC</configuration>
+      </member>
+      <member>
+        <project>3130E_ASIC_REVB</project>
+        <configuration>SD</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

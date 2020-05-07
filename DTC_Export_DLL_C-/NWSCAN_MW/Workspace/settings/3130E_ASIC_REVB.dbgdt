@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <PreferedWindows><PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1307</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>980</ColumnWidth1>
+        <ColumnWidth2>261</ColumnWidth2>
+        <ColumnWidth3>65</ColumnWidth3>
+      <PreferedWindows><PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>347</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <PreferedWindows><PoLap Dangion>2</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
+    <CallStack><col-names><item>Frame</item><item>_I0</item></col-names><col-widths><item>400</item><item>20</item></col-widths><PreferedWindows><PoLap Dangion>1</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></CallStack><WATCH_1><PreferedWindows><PoLap Dangion>2</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><expressions><item>TIMER_VPW_BASE</item><item>bWidth</item><item>Timing</item><item>bNumberRetry</item><item>strJ1850RecData[iPrintIdx].DataFrame</item><item>strJ1850RecData</item><item>arrTestTiming</item><item>g_strtNWScanVehicleProfile</item><item>p_strtDLCRx</item><item>p_strtLinkProfile</item><item>ePinHigh</item><item>ePinLow</item><item>p_strtDLCTx</item><item>bByteData</item><item>eUserUart</item><item>p_strtDLCTx-&gt;eUserUart</item><item>p_strtLinkProfile</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>196</item><item>150</item><item>100</item><item>100</item></col-widths></WATCH_1><Register/><Breakpoints><PreferedWindows><PoLap Dangion>3</PoLap Dangion><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><col-names><item>Breakpoint</item><item>_I0</item></col-names><col-widths><item>500</item><item>35</item></col-widths></Breakpoints></Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-2421-7084</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>3130E_ASIC_REVB</ExpandedNode><ExpandedNode>3130E_ASIC_REVB/2_Middle</ExpandedNode><ExpandedNode>3130E_ASIC_REVB/2_Middle/2_Vehicle_Interface</ExpandedNode><ExpandedNode>3130E_ASIC_REVB/2_Middle/2_Vehicle_Interface/NWSCAN_UI</ExpandedNode><ExpandedNode>3130E_ASIC_REVB/2_Middle/2_Vehicle_Interface/NWSCAN_UI/UI</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-18244-29195</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab><Tab><Identity>TabID-12712-17740</Identity><TabName>Register</TabName><Factory>Register</Factory><Session><State3>TIM3_CR1</State3><REG1>0</REG1><REG2>0</REG2><Group>14</Group><States>3</States><State0>GPIOC_ODR</State0><State1>TIM3_CCER</State1><State2>TIM3_CR1</State2></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd1><Wnd2><Tabs><Tab><Identity>TabID-11708-23351</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-21493-21037</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\Adapter\Makes\Ford\FordEnhUtility.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1199</YPos2><SelStart2>43998</SelStart2><SelEnd2>43998</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\1_APPLICATION\OBDToolMain.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>48</YPos2><SelStart2>1632</SelStart2><SelEnd2>1632</SelEnd2></Tab><ActiveTab>1</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\2_VEHICLE_INTERFACE\1_OBD_API\NWSCAN_APP\Adapter\Makes\Ford\NwS_Ford_Utility.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>126</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\2_VEHICLE_INTERFACE\1_OBD_API\NWSCAN_APP\PROC_UI\System\Proc_UI_SystemMenu.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>593</YPos2><SelStart2>19922</SelStart2><SelEnd2>19922</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <PoLap Dangions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00269cc8><key>iaridepm.enu1</key></Toolbar-00269cc8></Sizes></Row0><Row1><Sizes><Toolbar-1d89e498><key>debuggergui.enu1</key></Toolbar-1d89e498></Sizes></Row1><Row2><Sizes><Toolbar-1d89e3d0><key>armjlink.enu1</key></Toolbar-1d89e3d0></Sizes></Row2></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>395</Bottom><Right>438</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>291545</sizeHorzCY><sizeVertCX>322108</sizeVertCX><sizeVertCY>578717</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>395</Bottom><Right>369</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>291545</sizeHorzCY><sizeVertCX>271596</sizeVertCX><sizeVertCY>578717</sizeVertCY></Rect></Wnd1></Sizes></Row0><Row1><Sizes><Wnd3><Rect><Top>-2</Top><Left>367</Left><Bottom>395</Bottom><Right>567</Right><x>367</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>291545</sizeHorzCY><sizeVertCX>146413</sizeVertCX><sizeVertCY>578717</sizeVertCY></Rect></Wnd3></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>200</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>291545</sizeHorzCY><sizeVertCX>146413</sizeVertCX><sizeVertCY>291545</sizeVertCY></Rect></Wnd2></Sizes></Row0></Bottom><Float><Sizes/></Float></PoLap Dangions>
+  </Desktop>
+</Project>
+
+

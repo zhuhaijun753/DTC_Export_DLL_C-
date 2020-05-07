@@ -1,0 +1,56 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 1 "STD_CODE2" "{$PROJ_DIR$\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\Adapter\Makes\Nissan\NwS_Nissan_Adapter.c}.57.1" 0 0 1 "" 0 ""
+Bp1=_ 1 "STD_CODE2" "{d:\Master_Project\OBDTool\Protool\ProtocolApi\branches\FW\UI_NWSCAN\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\Adapter\Common\VDM_Util_DBToLinkProfile.c}.532.1" 0 0 1 "" 0 ""
+Bp2=_ 1 "STD_CODE2" "{$PROJ_DIR$\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\Adapter\Common\VDM_NWScan_Path.c}.81.1" 0 0 1 "" 0 ""
+Bp3=_ 1 "STD_CODE2" "{$PROJ_DIR$\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\Adapter\Common\VDM_Util_DBToLinkProfile.c}.937.1" 0 0 1 "" 0 ""
+Bp4=_ 1 "STD_CODE2" "{L:\NWSCAN_DEV_V01.00.25\NWSCAN_DEV\NWSCAN_MW\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\Adapter\Common\VDM_NWScan_Path.c}.47.1" 0 0 1 "" 0 ""
+Count=5
+[Interrupts]
+Enabled=1
+[MemConfig]
+Base=1
+Manual=0
+Ddf=1
+TypeViol=0
+Stop=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[Aliases]
+Count=0
+SuppressDialog=0
+[Simulator]
+Freq=10000000
+MultiCoreRunAll=1

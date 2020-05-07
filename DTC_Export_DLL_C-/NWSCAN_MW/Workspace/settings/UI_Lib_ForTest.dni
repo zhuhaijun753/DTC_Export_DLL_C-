@@ -1,0 +1,209 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=2030472139
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+CStepIntDis=_ 0
+[SWOTraceHWSettings]
+OverrideDefaultClocks=1
+CpuClock=72000000
+ClockAutoDetect=1
+ClockWanted=6000000
+JtagSpeed=6000000
+Prescaler=12
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=1
+ITMlogFile=$PROJ_DIR$\ITM.log
+[struct_types]
+Fmt0=struct _structBMWDBVariant-eMsgID	4	0
+Fmt1=struct _structBMWProtocolVariant-eVariant	4	0
+Fmt2=struct _structCanRx-iAddr	4	0
+Fmt3=struct _structOemProfile-EcuAddr	4	0
+Fmt4=struct _structResponseBuffer-iResAddr	4	0
+Fmt5=struct _structVehDB-Hdr1	4	0
+Fmt6=struct _structVehDB-Hdr3	4	0
+Fmt7=struct _structVehDB-eReadDtcCmdID	3	0
+Fmt8=structBMWDBVariantSearch-eVariantCode	4	0
+Fmt9=structBMWProtocolVariant-RX_CANh	4	0
+Fmt10=structBMWProtocolVariant-TX_CANL	4	0
+Fmt11=structBMWProtocolVariant-eMsgID	4	0
+Fmt12=structBMWProtocolVariant-eProtocol	4	0
+Fmt13=structBMWProtocolVariant-eSIDQuery	4	0
+Fmt14=structBMWProtocolVariant-eVariant	4	0
+Fmt15=structBMWProtocolVariant-iBaudRate	4	0
+Fmt16=structBMWVariantMatching-bLen	3	0
+Fmt17=structBMWVariantMatching-bOffset	3	0
+Fmt18=structBMWVariantMatching-eSIDInfo	4	0
+Fmt19=structDLCProfile-eDlCPinName	3	0
+Fmt20=structLookupTBInfo-iMatchData	4	0
+Fmt21=structLookupTBInfo-iRawData	4	0
+Fmt22=structLookupTBInfo-sTBID	4	0
+Fmt23=structLookupTBInfo-sTBInfo	4	0
+Fmt24=structNwSHeader-bKeySize	3	0
+Fmt25=structNwSHeader-iNumberLine	4	0
+Fmt26=structNwSYmme-bYear	4	0
+Fmt27=structNwSYmme-sEngine	4	0
+Fmt28=structNwSYmme-sMake	4	0
+Fmt29=structNwSYmme-sModel	4	0
+Fmt30=structNwSYmme-sOption1	4	0
+Fmt31=structNwSYmme-sTrim	4	0
+Fmt32=structProfileDB-bDispType	4	0
+Fmt33=structProfileDB-sECUID	4	0
+Fmt34=structProfileDB-sKeepAliveID	4	0
+Fmt35=structProfileDB-sMsgId_EcuId	4	0
+Fmt36=structProfileDB-sQueryID	4	0
+Fmt37=structProfileDB-sReadDTCID	4	0
+Fmt38=structureHondaEcuIDParser-EcuTypeID	3	0
+Fmt39=structureHondaEcuIDParser-eParserType	4	0
+[array_types]
+Fmt0=uint16[51]	3	0
+Fmt1=uint32[5]	4	0
+[watch_formats]
+Fmt0={W}0:(~p_strtLinkProfile->strtReqBuf.p_bReqData[0])	4	0
+Fmt1={W}0:0x12d63a*3	4	0
+Fmt2={W}0:103	4	0
+Fmt3={W}0:104	4	0
+Fmt4={W}0:bBytePos	3	0
+Fmt5={W}0:eKlineDlc	3	0
+Fmt6={W}0:eLlineDlc	3	0
+Fmt7={W}0:eMSGID_ME20	3	0
+Fmt8={W}0:iAddrKey	4	0
+Fmt9={W}0:iKeyAddr	4	0
+Fmt10={W}0:p_strtLinkProfile->strtKlineInitParam.sKeyWord	4	0
+Fmt11={W}0:p_strtVehDB->eReadDtcCmdID	3	0
+Fmt12={W}0:pstrtBMWProtocolVariant->eVariant	4	0
+Fmt13={W}0:pstrtLUTTableInfo->bLenIn	3	0
+Fmt14={W}0:pstrtLUTTableInfo->bOffSet2Data	3	0
+Fmt15={W}0:pstrtRespBuff_Free->pstrData[3]+5	4	0
+Fmt16={W}0:pstrtRespBuff_Free->sResLen	4	0
+Fmt17={W}0:strtHeader.iNumberLine	4	0
+Fmt18={W}0:strtLookupTBInfo.iRawData	3	0
+Fmt19={W}0:strtVehDB->EcuInfoParserType	3	0
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title0=I0
+Symbol0=0 4 1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+Title0=Ch0
+Symbol0=0 4 1
+Title1=Ch1
+Symbol1=0 4 1
+Title2=Ch2
+Symbol2=0 4 1
+Title3=Ch3
+Symbol3=0 4 1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=1
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\2_Middle\2_VEHICLE_INTERFACE\1_OBD_API\NWSCAN_APP\Adapter\Makes\Honda\NwS_Honda_Utility.c}.1429.5" 0 0 1 "" 0 "" 0
+Bp1=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\2_Middle\2_VEHICLE_INTERFACE\1_OBD_API\NWSCAN_APP\Adapter\Makes\Volvo\NwS_Volvo_Utility.c}.206.13" 0 0 1 "" 0 "" 0
+Count=2
+[Aliases]
+A0=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\3_User_Interface\3_UI_Processes\Proc_Mangager\OBDToolManager.c" ""
+A1=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\3_User_Interface\3_UI_Processes\Processes\01_Tool_Setting\Proc_AdjustBrightness.c" ""
+A2=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\3_User_Interface\3_UI_Processes\Processes\01_Tool_Setting\Proc_AudibleTone.c" ""
+A3=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\3_User_Interface\3_UI_Processes\Processes\01_Tool_Setting\Proc_SelectUnit.c" ""
+A4=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\3_User_Interface\3_UI_Processes\Processes\02_Tool_Library\Proc_DTC_Libary.c" ""
+A5=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\3_User_Interface\3_UI_Processes\Processes\06_Network_Scan\Proc_Network_Scan_OEM_LD.c" ""
+A6=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\3_User_Interface\3_UI_Processes\Processes\07_Vehicle_Info\Proc_Vehicle_Info.c" ""
+A7=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\3_User_Interface\3_UI_Processes\Processes\11_Communication\Proc_USB.c" ""
+A8=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\3_User_Interface\3_UI_Processes\Processes\12_OBD2_Process\Proc_OBD2_AutoLink.c" ""
+A9=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\3_User_Interface\3_UI_Processes\Processes\Other_Processes\Proc_SDCardWarning.c" ""
+A10=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\3_User_Interface\4_Key_Processes\CommonKeyHandler.c" ""
+A11=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\3_User_Interface\5_Vehicle_Data_Process\Vehicle_Data_Manager.c" ""
+A12=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\1_Application\3_User_Interface\6_UI_Uilities\Common_LCD_Screen.c" ""
+A13=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\0_Middle_Utilities\SystemModeFunctionUtilities.c" ""
+A14=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\1_Display\2_LCM\1_App_API\Innova_GUI\src\GUIManager.c" ""
+A15=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\1_Display\2_LCM\1_App_API\Innova_GUI\src\GuiIcons.c" ""
+A16=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\1_Display\2_LCM\1_App_API\Innova_GUI\src\GuiLcdDriver.c" ""
+A17=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\1_Display\2_LCM\2_Driver\FSMC_LCD_Driver.c" ""
+A18=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\1_Display\2_LCM\2_Driver\HX8347Driver.c" ""
+A19=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\3_Storage\2_Driver\0_FAT_Driver\FatFs\src\ff.c" ""
+A20=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\3_Storage\2_Driver\4_SD_Card\2_Driver\sdcard.c" ""
+A21=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\5_Communication\1_Usb\2_Core\usr\usb_bsp.c" ""
+A22=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\8_System\Power\PowerDriver.c" ""
+A23=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\8_System\Timer\TimerApp.c" ""
+A24=_ "D:\TASK\MD75-85\MD75_85_NewPlatformStructureProject_Lap Dang_Jan2815\1_Application\3_User_Interface\3_UI_Processes\Processes\05_VIN_Decode\VinDecode.c" ""
+A25=_ "E:\Embedded\PROJECTMANAGEMENT\0_MD75_MD85\Firmware\New_SVN\MD75_85_NEWPLATFORMSTRUCTUREPROJECT\2_Middle\3_Storage\2_Driver\4_SD_Card\2_Driver\sdcard.c" ""
+A26=_ "E:\Embedded\PROJECTMANAGEMENT\0_MD75_MD85\Firmware\New_SVN\MD75_85_NEWPLATFORMSTRUCTUREPROJECT\2_Middle\8_System\Power\PowerDriver.c" ""
+A27=_ "E:\Embedded\PROJECTMANAGEMENT\0_MD75_MD85\Firmware\New_SVN\MD75_85_NEWPLATFORMSTRUCTUREPROJECT\2_Middle\8_System\Timer\TimerApp.c" ""
+A28=_ "T:\00NWSCAN\01SVN\NwScan\FW\NWCAN_MD75\MD75_85_NewPlatformStructureProject\2_Middle\2_Vehicle_Interface\NWSCAN_APP\Adapter\OBD2\OBDIILiveData\OBDIILiveData.c" ""
+Count=29
+SuppressDialog=1

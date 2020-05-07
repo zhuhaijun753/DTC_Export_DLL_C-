@@ -1,0 +1,132 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-60633118
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+CStepIntDis=_ 0
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title0=I0
+Symbol0=0 4 1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+Title0=Ch0
+Symbol0=0 4 1
+Title1=Ch1
+Symbol1=0 4 1
+Title2=Ch2
+Symbol2=0 4 1
+Title3=Ch3
+Symbol3=0 4 1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Aliases]
+A0=_ "D:\Embedded\Functions_Responsible\7_User_Interface\2_Firmware\1_New_Structure_Platform\MD75_85_NewPlatformStructureProject\2_Middle\1_Display\2_LCM\1_App_API\Innova_GUI\src\GuiIcons.c" ""
+A1=_ "E:\Embedded\PROJECTMANAGEMENT\0_MD75_MD85\Firmware\New_SVN\MD75_85_NEWPLATFORMSTRUCTUREPROJECT\1_APPLICATION\3_USER_INTERFACE\3_UI_PROCESSES\PROCESSES\12_OBD2_PROCESS\APP_MIDDLE\OBD2_Data_Parser.c" ""
+A2=_ "E:\Embedded\PROJECTMANAGEMENT\0_MD75_MD85\Firmware\New_SVN\MD75_85_NEWPLATFORMSTRUCTUREPROJECT\1_APPLICATION\3_USER_INTERFACE\3_UI_PROCESSES\PROC_MANGAGER\OBDToolManager.c" ""
+A3=_ "E:\Embedded\PROJECTMANAGEMENT\0_MD75_MD85\Firmware\New_SVN\MD75_85_NEWPLATFORMSTRUCTUREPROJECT\2_Middle\6_Sound\1_Buzzer\BuzzerDriver.c" ""
+A4=_ "E:\Embedded\PROJECTMANAGEMENT\0_MD75_MD85\Firmware\New_SVN\MD75_85_NEWPLATFORMSTRUCTUREPROJECT\2_Middle\8_System\Cable_ID\Cable_ID.c" ""
+A5=_ "E:\Embedded\PROJECTMANAGEMENT\0_MD75_MD85\Firmware\New_SVN\MD75_85_NEWPLATFORMSTRUCTUREPROJECT\2_Middle\8_System\Power\PowerDriver.c" ""
+A6=_ "E:\Embedded\PROJECTMANAGEMENT\0_MD75_MD85\Firmware\New_SVN\MD75_85_NEWPLATFORMSTRUCTUREPROJECT\2_Middle\8_System\Timer\TimerApp.c" ""
+Count=7
+SuppressDialog=0
+[Trace1]
+Enabled=0
+ShowSource=1

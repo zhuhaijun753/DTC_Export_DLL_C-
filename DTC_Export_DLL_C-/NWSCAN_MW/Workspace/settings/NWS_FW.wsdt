@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>NWS_Adapter/DTC_ADAPTER_LIB</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>361</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1395</ColumnWidth1><ColumnWidth2>372</ColumnWidth2><ColumnWidth3>93</ColumnWidth3></Build>
+    <Find-in-Files><ColumnWidth0>569</ColumnWidth0><ColumnWidth1>94</ColumnWidth1><ColumnWidth2>854</ColumnWidth2><ColumnWidth3>379</ColumnWidth3></Find-in-Files></Static>
+    <Windows>
+      
+      
+    <Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-7594-30199</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>NWS_Adapter</ExpandedNode><ExpandedNode>NWS_Adapter/2_Middle</ExpandedNode><ExpandedNode>NWS_Adapter/2_Middle/2_Vehicle_Interface</ExpandedNode><ExpandedNode>NWS_Adapter/2_Middle/2_Vehicle_Interface/MW_APP</ExpandedNode><ExpandedNode>NWS_Adapter/2_Middle/2_Vehicle_Interface/MW_APP/Source</ExpandedNode><ExpandedNode>NWS_Adapter/2_Middle/2_Vehicle_Interface/MW_APP/Source/DTC</ExpandedNode><ExpandedNode>NWS_Adapter/Output</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3><Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-31475-30366</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-2696-8507</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\BMW_Adapter_DtcDef.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>105</YPos2><SelStart2>4892</SelStart2><SelEnd2>4892</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\CHRYSLER_Adapter_DtcDef.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>195</YPos2><SelStart2>8166</SelStart2><SelEnd2>8166</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DTCDefinition.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>18</YPos2><SelStart2>938</SelStart2><SelEnd2>938</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\JAGUAR_LAND_ROVER_Adapter_DtcDef.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>143</YPos2><SelStart2>5427</SelStart2><SelEnd2>5427</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\MERCEDES_BENZ_Adapter_DtcDef.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>201</YPos2><SelStart2>4767</SelStart2><SelEnd2>4767</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DTCDefinitionConfig.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>304</SelStart2><SelEnd2>304</SelEnd2></Tab><ActiveTab>5</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\Default_Adapter_DtcDef.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>646</YPos2><SelStart2>23869</SelStart2><SelEnd2>23869</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DTCUtilities.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>691</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\2_Middle\2_Vehicle_Interface\1_OBD_API\NWSCAN_APP\DTC\DTCDefinition.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>25</YPos2><SelStart2>1550</SelStart2><SelEnd2>1569</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\1_Application\3_User_Interface\3_UI_Processes\Processes\04_YMME_Selection\ymme_structure.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>255</YPos2><SelStart2>12144</SelStart2><SelEnd2>12144</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <PoLap Dangions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0110A848><key>iaridepm.enu1</key></Toolbar-0110A848></Sizes></Row0></Top><Left><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>672</Bottom><Right>452</Right><x>-2</x><y>-2</y><xscreen>240</xscreen><yscreen>204</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>196532</sizeHorzCY><sizeVertCX>236458</sizeVertCX><sizeVertCY>649326</sizeVertCY></Rect></Wnd3></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>321</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>323</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>311175</sizeHorzCY><sizeVertCX>125000</sizeVertCX><sizeVertCY>196532</sizeVertCY></Rect></Wnd4></Sizes></Row0></Bottom><Float><Sizes/></Float></PoLap Dangions>
+  </Desktop>
+</Workspace>
+
+
